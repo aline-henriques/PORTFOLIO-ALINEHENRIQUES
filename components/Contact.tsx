@@ -54,7 +54,11 @@ export default function Contact() {
           <h2 className="section-title mt-2">Fale Comigo!</h2>
           <p className="contact-sub mt-4">
             Aberta a freelas, projetos e oportunidades.<br />
+<<<<<<< HEAD
             Respondo em menos de 24 horas. 
+=======
+            Respondo em menos de 24 horas. 🌙
+>>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
           </p>
         </motion.div>
 

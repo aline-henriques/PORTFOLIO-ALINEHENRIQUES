@@ -47,7 +47,11 @@ transition={{delay:1}}
 Ver projetos
 </a>
 
+<<<<<<< HEAD
 <a href="/CURRICULO-ALINE.pdf" download className="btn-outline">
+=======
+<a href="/curriculo.pdf" download className="btn-outline">
+>>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
 Baixar currículo
 </a>
 

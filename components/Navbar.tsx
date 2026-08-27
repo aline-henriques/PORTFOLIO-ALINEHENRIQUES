@@ -5,7 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
   const [small, setSmall] = useState(false);
+<<<<<<< HEAD
   const [open, setOpen] = useState(false);
+=======
+  const [open,  setOpen]  = useState(false);
+>>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
 
   useEffect(() => {
     const onScroll = () => setSmall(window.scrollY > 40);
@@ -27,10 +31,17 @@ export default function Navbar() {
   return (
     <header className={`navbar-blur ${small ? "navbar-small" : ""}`}>
       <div className="container-padrao w-full">
+<<<<<<< HEAD
         <div className="flex items-center justify-between h-[80px]">
 
           {/* ── esquerda: logo ── */}
           <div className="flex items-center gap-3">
+=======
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center h-[80px]">
+
+          {/* ── esquerda: logo ── */}
+          <div className="flex items-center gap-3 justify-self-start">
+>>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
             <div className="h-9 w-9 rounded-full border border-white/10 bg-white/5 grid place-items-center shrink-0">
               <span className="gold-gradient font-bold text-sm">AH</span>
             </div>
@@ -38,14 +49,23 @@ export default function Navbar() {
           </div>
 
           {/* ── centro: links desktop ── */}
+<<<<<<< HEAD
           <nav className="hidden md:flex items-center gap-10">
+=======
+          <nav className="hidden md:flex items-center gap-10 justify-self-center">
+>>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
             <a href="#sobre">Sobre</a>
             <a href="#projetos">Projetos</a>
             <a href="#contato">Contato</a>
           </nav>
 
+<<<<<<< HEAD
           {/* ── direita: CTA desktop + hamburger mobile ── */}
           <div className="flex items-center gap-3">
+=======
+          {/* ── direita: CTA + hamburger ── */}
+          <div className="flex items-center justify-self-end gap-3">
+>>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
             <a href="#contato" className="btn-nav hidden md:inline-flex whitespace-nowrap">
               Contato
             </a>
@@ -62,7 +82,10 @@ export default function Navbar() {
               </div>
             </button>
           </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
         </div>
       </div>
 

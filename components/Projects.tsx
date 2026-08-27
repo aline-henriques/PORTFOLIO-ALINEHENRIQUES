@@ -48,11 +48,16 @@ const PROJECTS: Project[] = [
     title: "Portfólio Cliente",
     desc: "Portfólio pessoal desenvolvido para cliente com design sofisticado.",
     tags: ["Next.js", "UI/UX", "Frontend"],
+<<<<<<< HEAD
     link: "https://github.com/aline-henriques/portfolio-fernando-machado",
+=======
+    link: "#",
+>>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
     accent: "rgba(184,150,90,.18)",
     image: "/fernando.portfolio.png",
   },
   {
+<<<<<<< HEAD
     title: "Escape Room Game",
     desc: "Jogo em terminal desenvolvido em Python para a cadeira de Lógica para Computação",
     tags: ["Python", "Game", "Logic"],
@@ -61,6 +66,8 @@ const PROJECTS: Project[] = [
     image: "/escape-room.png",
   },
   {
+=======
+>>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
     title: "Em breve...",
     desc: "Novo projeto em desenvolvimento.",
     tags: [],
