@@ -12,10 +12,7 @@ export default function Footer() {
     { label: "GitHub",   href: "https://github.com/aline-henriques"           },
     { label: "LinkedIn", href: "https://linkedin.com/in/aline-henriques"       },
     { label: "E-mail",   href: "mailto:alinealbhenriques@gmail.com"            },
-<<<<<<< HEAD
     { label: "Instagram",   href: "https://www.instagram.com/lineoncode/"            },
-=======
->>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
   ];
 
   return (
@@ -68,11 +65,7 @@ export default function Footer() {
         {/* ── rodapé final ── */}
         <div className="footer-bottom">
           <p className="footer-copy">
-<<<<<<< HEAD
             © {year} Aline Henriques
-=======
-            © {year} Aline Henriques — Feito com 💛 em Recife, PE
->>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
           </p>
           <p className="footer-copy">Licença MIT</p>
         </div>

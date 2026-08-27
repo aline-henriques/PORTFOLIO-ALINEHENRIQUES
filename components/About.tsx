@@ -60,33 +60,6 @@ export default function About() {
             <p className="about-quote">
               "Código limpo não é só técnica, é respeito por quem vai usar."
             </p>
-
-<<<<<<< HEAD
-=======
-            {/* facts */}
-            <div className="about-facts">
-              <div className="about-fact">
-                <div className="about-fact-icon">📍</div>
-                <div className="about-fact-label">Localização</div>
-                <div className="about-fact-value">Recife, PE</div>
-              </div>
-              <div className="about-fact">
-                <div className="about-fact-icon">🎓</div>
-                <div className="about-fact-label">Estudando</div>
-                <div className="about-fact-value">Ciência da Computação</div>
-              </div>
-              <div className="about-fact">
-                <div className="about-fact-icon">⚡</div>
-                <div className="about-fact-label">Foco atual</div>
-                <div className="about-fact-value">Fullstack + UI/UX</div>
-              </div>
-              <div className="about-fact">
-                <div className="about-fact-icon">🌙</div>
-                <div className="about-fact-label">Resposta</div>
-                <div className="about-fact-value">Menos de 24h</div>
-              </div>
-            </div>
->>>>>>> ed3c6234f892404c6ecaba38b8cb84f3c6c6594b
           </div>
         </div>
 
